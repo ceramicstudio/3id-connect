@@ -19,6 +19,9 @@ Example usage with an ethereum provider and related auth provider.
 ```js
 import { ThreeIdConnect,  EthereumAuthProvider } from '@ceramicstudio/3id-connect'
 
+// create instance of 3id-connect
+const threeIdConnect = new ThreeIdConnect()
+
 // assuming ethereum provider available or on window
 const addresses = await provider.enable()
 
